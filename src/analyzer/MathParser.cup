@@ -25,7 +25,7 @@ non terminal Expresion, Terminos, Termino, Factor;
 start with Expresion;
 
 /* Grammar rules */
-Expresion ::= IDENTIFIER EQ Terminos;
+Expresion ::= IDENTIFIER EQ Terminos | Terminos;
 
 Terminos ::= Termino
            | Terminos PLUS Termino

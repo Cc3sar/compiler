@@ -5,25 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eab90b75-4ddb-4acb-ac79-cab748f87cc2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/compiler.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/analyzer/Analyzer.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/analyzer/Analyzer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/analyzer/Lexer.flex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/analyzer/Lexer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/analyzer/MathLexer.flex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/analyzer/MathLexer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/analyzer/MathParser.cup" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/analyzer/Sintax.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/analyzer/TokenType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/analyzer/sym.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generatefiles/GenerateFiles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/managefiles/ManageFiles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/analyzer/Lexer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/analyzer/MathLexer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/analyzer/MathParser.cup" beforeDir="false" afterPath="$PROJECT_DIR$/src/analyzer/MathParser.cup" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/analyzer/Sintax.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/analyzer/sym.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/textForLexicalAnalysis.txt" beforeDir="false" afterPath="$PROJECT_DIR$/textForLexicalAnalysis.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +69,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Analyzer">
+  <component name="RunManager" selected="Application.Analyzer (2)">
     <configuration name="Analyzer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="analyzer.Analyzer" />
       <module name="compiler" />
@@ -108,7 +96,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Analyzer (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Analyzer (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="analyzer.Analyzer" />
       <module name="compiler" />
       <extension name="coverage">
@@ -149,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Analyzer" />
-        <item itemvalue="Application.GenerateFiles" />
-        <item itemvalue="Application.Analyzer (3)" />
         <item itemvalue="Application.Analyzer (2)" />
         <item itemvalue="Application.Analyzer (1)" />
+        <item itemvalue="Application.Analyzer (4)" />
+        <item itemvalue="Application.GenerateFiles" />
+        <item itemvalue="Application.Analyzer" />
       </list>
     </recent_temporary>
   </component>
@@ -171,6 +159,7 @@
       <workItem from="1679723118886" duration="287000" />
       <workItem from="1679753109796" duration="3867000" />
       <workItem from="1679756998399" duration="1981000" />
+      <workItem from="1679801014726" duration="1815000" />
     </task>
     <servers />
   </component>
