@@ -1,0 +1,39 @@
+package analyzer;
+
+import java_cup.runtime.Symbol;
+
+parser code
+{:
+    private Symbol s;
+
+    public void syntax_error(Symbol s){
+        this.s = s;
+    }
+
+    public Symbol getS(){
+        return this.s;
+}
+:};
+
+/* Terminales */
+terminal IDENTIFIER, REAL, EQ, PLUS, MINUS, TIMES, DIVIDE, ERROR;
+
+/* Non-terminals */
+non terminal Expresion, Terminos, Termino, Factor;
+
+/* Start symbol */
+start with Expresion;
+
+/* Grammar rules */
+Expresion ::= IDENTIFIER EQ Terminos;
+
+Terminos ::= Termino
+           | Terminos PLUS Termino
+           | Terminos MINUS Termino;
+
+Termino ::= Factor
+           | Termino TIMES Factor
+           | Termino DIVIDE Factor;
+
+Factor ::= REAL
+          | IDENTIFIER;
